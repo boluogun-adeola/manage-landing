@@ -34,6 +34,7 @@ html{
 
 body{
     font-family:'Be Vietnam', sans-serif;
+    overflow-x:hidden;
   
 }
 navbar{
