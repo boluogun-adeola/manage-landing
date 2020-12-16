@@ -389,6 +389,7 @@ form #small{
     .product{
         flex-direction:column-reverse;
         padding-left:0;
+        padding-top:4.5em;
     }
     .product-text{
         padding-top:25em;
@@ -409,8 +410,8 @@ form #small{
         margin:auto;
     }
     .product-image{
-        width: 450px;
-        height: 550px;
+        width: 100%;
+        height: auto;
         z-index:-1;
     }
     .product-image img{
@@ -532,7 +533,19 @@ form #small{
     
 }
 @media only screen and (max-width:400px){
+   .difference p{
+        width:100%;
+    }
+    .features h3{
+        font-size:0.95em;
+    }
+    .number{
+        margin-right:0.9em;
+    }
     .footer-links{
         flex-direction:column;
+    }
+    .careers{
+        padding-right:0
     }
 }
