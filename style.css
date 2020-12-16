@@ -410,13 +410,14 @@ form #small{
         margin:auto;
     }
     .product-image{
-        width: 100%;
-        height: auto;
+        width:550px;
+        height: 550px;
         z-index:-1;
     }
     .product-image img{
         margin-top:45%;
-        margin-right:5em;
+        margin-right:4em;
+        width:100%;
         z-index:-1;
     }
     .about{
@@ -546,6 +547,6 @@ form #small{
         flex-direction:column;
     }
     .careers{
-        padding-right:0
+        margin-left:0;
     }
 }
