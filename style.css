@@ -417,7 +417,7 @@ form #small{
     }
     .product-image img{
         margin:auto;
-        margin-top:70%;
+        margin-top:30%;
         width:100%;
         height:auto;
         margin-left:0;
@@ -434,6 +434,7 @@ form #small{
         text-align:center;
         width:90%;
         font-size:2.5em;
+        padding-left:1
     }
     .difference p{
         width:95%;
@@ -544,7 +545,10 @@ form #small{
     }
     
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
+    .product-image img{
+        margin-top:70%
+    }
     .difference p{
         width:100%;
     }
