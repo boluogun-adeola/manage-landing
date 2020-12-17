@@ -545,11 +545,22 @@ form #small{
     
 }
 @media only screen and (max-width:400px){
-    
+    .difference p{
+        width:100%;
+    }
+    .features h3{
+        font-size:0.95em;
+    }
+    .number{
+        margin-right:0.9em;
+    }
     .policy{
         margin-right:1em;
     }
     .careers{
         margin-left:1em;
+    }
+    .careers{
+        margin-left:0;
     }
 }
