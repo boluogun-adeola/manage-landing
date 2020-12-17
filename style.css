@@ -34,6 +34,7 @@ html{
 
 body{
     font-family:'Be Vietnam', sans-serif;
+    overflow-x:hidden;
   
 }
 navbar{
@@ -339,6 +340,7 @@ form #small{
         width:100%;
         padding-left:0;
         padding-right:0;
+        z-index:100;
     }
     .nav{
          display:none;
@@ -388,6 +390,7 @@ form #small{
     .product{
         flex-direction:column-reverse;
         padding-left:0;
+        padding-top:4.5em;
     }
     .product-text{
         padding-top:25em;
@@ -395,26 +398,29 @@ form #small{
     }
     .product-text h2{
         text-align:center;
-        font-size:2.5em;
+        font-size:2em;
         width:90%;
     }
     .product-text p{
         font-size:0.9em;
-        padding-left:4.5em;
-        width:85%;
+        padding-left:2em;
+        width:95%;
     }
     .product-text button{
         display:block;
         margin:auto;
     }
     .product-image{
-        width: 450px;
-        height: 550px;
+        width: 100%;
+        height:500px;
         z-index:-1;
     }
     .product-image img{
-        margin-top:45%;
-        margin-right:5em;
+        margin:auto;
+        margin-top:70%;
+        width:100%;
+        height:auto;
+        margin-left:0;
         z-index:-1;
     }
     .about{
@@ -430,8 +436,8 @@ form #small{
         font-size:2.5em;
     }
     .difference p{
-        width:75%;
-        padding-left:4.5em;
+        width:95%;
+        padding-left:2em;
         font-size:0.9em;
     }
     .features{
@@ -487,13 +493,14 @@ form #small{
     }
     .link{
         font-size:2em;
-        padding-right:0.7em;
+        padding-right:0.5em;
         margin-right:auto;
     }
     .logo-icon{
         padding-top:2em;
         display:flex;
         flex-direction:column-reverse;
+        padding-left:1.5em;
     }
     #footer-logo {
         width:50%;
@@ -506,11 +513,18 @@ form #small{
         display:flex;
         justify-content:space-between;
         font-size:0.9em;
+        padding-left:1em;
         
     }
     .careers{
         padding-right:5em;
    
+    }
+    .policy{
+        margin-right:1.5em;
+    }
+    .careers{
+        margin-left:1.5em;
     }
     .careers p, .policy p{ 
         padding-bottom:1em;
@@ -531,7 +545,11 @@ form #small{
     
 }
 @media only screen and (max-width:400px){
-    .footer-links{
-        flex-direction:column;
+    
+    .policy{
+        margin-right:1em;
+    }
+    .careers{
+        margin-left:1em;
     }
 }
